@@ -70,4 +70,8 @@ button, input[type="button"], input[type="submit"] {
     background-color: #4CAF50; /* Green */
 }
 
+@media (max-width: 768px) {
+    /* Styles for screens up to 768px wide (typical for phones) */
+    /* Adjust your layout, font sizes, and spacing for smaller screens here */
+}
 
