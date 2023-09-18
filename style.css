@@ -1,0 +1,73 @@
+* {
+margin: o;
+padding: 0;
+}
+
+body {
+background-color: #eee;
+}
+
+nav {
+width: 100%;
+height: 100px;
+background-color: #fff;
+}
+
+ul{
+margin-left: 60px;
+}
+
+
+ul li {
+list-style: none;
+display: inline-block;
+float: left;
+line-height: 100px;
+}
+
+ul li a {
+    display: block;
+text-decoration: none;
+font-size: 14px;
+font-family: arial;
+color: black;
+padding: 0 20px;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+/* Reset some default styles for the buttons */
+button, input[type="button"], input[type="submit"] {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.button-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.signup-button, .login-button {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.signup-button {
+    background-color: #4CAF50; /* Green */
+}
+
+
